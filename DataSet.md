@@ -36,3 +36,7 @@ Go, A., Bhayani, R., and Huang, L., 2009. Twitter sentiment classification using
 ## Inspiration
 
 To detect severity from tweets, you may have a look at [this example](https://www.example.com).
+
+## DataSet Preview
+![image](https://github.com/user-attachments/assets/9dd05709-88f0-4293-8d96-996ce87d772b)
+
