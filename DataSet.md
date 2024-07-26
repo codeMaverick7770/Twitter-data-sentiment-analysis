@@ -8,7 +8,7 @@ This is the **Sentiment140 dataset**. It contains 1,600,000 tweets extracted usi
 
 The dataset includes the following 6 fields:
 
-- **target:** The polarity of the tweet (0 = negative, 2 = neutral, 4 = positive)
+- **target:** The polarity of the tweet (0 = negative, 2 = neutral, 4 = positive) (Data class for neutral values were missing tho :(
 - **ids:** The ID of the tweet (e.g., 2087)
 - **date:** The date of the tweet (e.g., Sat May 16 23:58:44 UTC 2009)
 - **flag:** The query (e.g., lyx). If there is no query, this value is NO_QUERY.
