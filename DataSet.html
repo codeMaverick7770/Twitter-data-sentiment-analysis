@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Dataset</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            color: #333;
+            background: linear-gradient(#6a11cb, #2575fc);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        a {
+            color: #2575fc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .sample-tweet {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>About the Dataset</h1>
+        <h2>Context</h2>
+        <p>This is the <strong>sentiment140 dataset</strong>. It contains 1,600,000 tweets extracted using the Twitter API. The tweets have been annotated (0 = negative, 4 = positive) and can be used to detect sentiment.</p>
+        
+        <h2>Content</h2>
+        <p>The dataset contains the following 6 fields:</p>
+        <ul>
+            <li><strong>target:</strong> The polarity of the tweet (0 = negative, 2 = neutral, 4 = positive)</li>
+            <li><strong>ids:</strong> The ID of the tweet (e.g., 2087)</li>
+            <li><strong>date:</strong> The date of the tweet (e.g., Sat May 16 23:58:44 UTC 2009)</li>
+            <li><strong>flag:</strong> The query (e.g., lyx). If there is no query, this value is NO_QUERY.</li>
+            <li><strong>user:</strong> The user who tweeted (e.g., robotickilldozr)</li>
+            <li><strong>text:</strong> The text of the tweet (e.g., Lyx is cool)</li>
+        </ul>
+        
+        <h2>Acknowledgements</h2>
+        <p>The official link regarding the dataset with resources about how it was generated is <a href="http://cs.stanford.edu/people/alecmgo/trainingandtestdata.zip" target="_blank">here</a>.</p>
+        <p>The official paper detailing the approach is <a href="https://cs.stanford.edu/people/alecmgo/papers/Sentiment140.pdf" target="_blank">here</a>.</p>
+        
+        <h2>Citation</h2>
+        <p>Go, A., Bhayani, R. and Huang, L., 2009. Twitter sentiment classification using distant supervision. CS224N Project Report, Stanford, 1(2009), p.12.</p>
+        
+        <h2>Inspiration</h2>
+        <p>To detect severity from tweets, you may have a look at <a href="https://www.example.com" target="_blank">this example</a>.</p>
+        
+        <h2>Sample Tweet</h2>
+        <div class="sample-tweet">
+            <p><strong>User:</strong> robotickilldozr</p>
+            <p><strong>Date:</strong> Sat May 16 23:58:44 UTC 2009</p>
+            <p><strong>Text:</strong> Lyx is cool</p>
+            <p><strong>Target:</strong> 4 (Positive)</p>
+        </div>
+    </div>
+</body>
+</html>
