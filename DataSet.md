@@ -26,7 +26,7 @@ Here is a sample tweet from the dataset:
 
 ## Acknowledgements
 
-- [Official dataset link](https://www.kaggle.com/datasets/kazanova/sentiment140/data))
+- [Official dataset link](https://www.kaggle.com/datasets/kazanova/sentiment140/data)
 
 
 ## Citation
