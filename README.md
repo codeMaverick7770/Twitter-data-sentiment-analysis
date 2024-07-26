@@ -1,4 +1,3 @@
-![Uploading image.png…]()
 # Sentiment Analysis using NLP
 
 This repository contains a project focused on Sentiment Analysis using Natural Language Processing (NLP) techniques. The project utilizes the Sentiment140 dataset, which includes 1.6 million labeled tweets, to train a model for classifying sentiments.
