@@ -86,6 +86,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/)
 - [NLTK: Natural Language Toolkit](https://www.nltk.org/)
 - [TensorFlow](https://www.tensorflow.org/)
+- This project is a part of my training in AI/ML from Internz Learn. Thanks to them for their guidance and support.
 
 ---
 
