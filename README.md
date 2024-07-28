@@ -70,7 +70,7 @@ The dataset is split into training (80%) and testing (20%) sets. The model's per
 
 ## Results
 
-The model achieves an accuracy of approximately XX% on the test set. Visualizations of word clouds for Positive and Negative sentiments are also provided.
+The model achieves an accuracy of approximately 79% on the test set. Visualizations of word clouds for Positive and Negative sentiments are also provided.
 
 ## Contributing
 
